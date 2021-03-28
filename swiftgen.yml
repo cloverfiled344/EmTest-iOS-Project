@@ -1,0 +1,11 @@
+xcassets:
+  inputs: TestAppWithApi/Helper/Resources/
+  outputs:
+    templateName: swift5
+    output: Assets.swift
+
+fonts:
+  inputs: TestAppWithApi/Helper/Resources/Fonts/
+  outputs:
+    templateName: swift5
+    output: Fonts.swift

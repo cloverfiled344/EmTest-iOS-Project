@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>domen</key>
+	<string>https://em.kg/api/v1/</string>
+	<key>sign_up</key>
+	<string>users/sign_up/</string>
+	<key>sign_in</key>
+	<string>users/auth/</string>
+	<key>mainPage</key>
+	<string>common/main_page/</string>
+	<key>restaurants</key>
+	<string>restaurants/</string>
+	<key>restaurant_categories</key>
+	<string>restaurants/restaurant_categories/</string>
+	<key>dishes_categories</key>
+	<string>restaurants/dishes_categories/</string>
+	<key>restaurants_dishes</key>
+	<string>restaurants/dishes/</string>
+	<key>restaurants_stocks</key>
+	<string>restaurants/stocks/</string>
+	<key>dishes_search</key>
+	<string>dishes_search/</string>
+	<key>restaurants_search</key>
+	<string>restaurants_search/</string>
+	<key>restaurants_favorite</key>
+	<string>restaurants/favorite/</string>
+	<key>cart</key>
+	<string>cart/</string>
+	<key>orders</key>
+	<string>orders/</string>
+	<key>profile_detail</key>
+	<string>users/profile_detail/</string>
+	<key>partial_update</key>
+	<string>users/phone_number/</string>
+	<key>pages</key>
+	<string>pages/</string>
+</dict>
+</plist>
