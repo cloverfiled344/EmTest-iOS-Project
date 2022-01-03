@@ -28,7 +28,7 @@
             <autoresizingMask key="autoresizingMask"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G6u-uP-2Qo">
-                    <rect key="frame" x="0.0" y="0.0" width="433" height="237"/>
+                    <rect key="frame" x="0.0" y="0.0" width="433" height="227"/>
                     <subviews>
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aF9-rl-dVV">
                             <rect key="frame" x="10" y="10" width="120" height="120"/>
@@ -137,7 +137,7 @@
             <viewLayoutGuide key="safeArea" id="VXr-Tz-HHm"/>
             <constraints>
                 <constraint firstItem="G6u-uP-2Qo" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="1YZ-v4-Jj9"/>
-                <constraint firstAttribute="bottom" secondItem="G6u-uP-2Qo" secondAttribute="bottom" id="34K-fW-KLw"/>
+                <constraint firstAttribute="bottom" secondItem="G6u-uP-2Qo" secondAttribute="bottom" constant="10" id="73A-HG-iEg"/>
                 <constraint firstItem="G6u-uP-2Qo" firstAttribute="leading" secondItem="VXr-Tz-HHm" secondAttribute="leading" id="C1C-8x-mLX"/>
                 <constraint firstItem="G6u-uP-2Qo" firstAttribute="trailing" secondItem="VXr-Tz-HHm" secondAttribute="trailing" id="PQa-bD-RCO"/>
             </constraints>

@@ -11,8 +11,12 @@ class MainTabBarController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-//        let v1 = UINavigationController(rootViewController: MainViewController())
-//        tabBarController?.viewControllers = [v1]
+        setupStyleNavBar()
     }
 
+    func setupStyleNavBar() {
+        self.tabBar.tintColor = UIColor.emGreen
+    }
+    
 }
+

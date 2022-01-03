@@ -40,6 +40,6 @@ class LogoutFooterView: UIView {
     }
     
     @IBAction func logoutTaped(_ sender: UIButton) {
-        logoutTap?()
+        self.logoutTap?()
     }
 }

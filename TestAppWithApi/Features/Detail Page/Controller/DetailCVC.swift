@@ -24,13 +24,14 @@ class DetailCVC: UICollectionViewController, UICollectionViewDelegateFlowLayout 
         
         self.setupUI()
         self.fetchData()
+        
+        // Setup tableView height
+    
     }
-
-//    override func viewWillAppear(_ animated: Bool) {
-//        super.viewWillAppear(animated)
-//        self.getDishesById()
-//    }
-//    
+    
+    private func setupHeightRow() {
+       
+    }
     
     // MARK: UICollectionViewDataSource
     
@@ -60,13 +61,12 @@ class DetailCVC: UICollectionViewController, UICollectionViewDelegateFlowLayout 
             self.getDishesById()
         }
     }
-    
-    
 
     // MARK: UICollectionViewDelegate
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
-        return .init(width: UIScreen.main.bounds.width, height: 300)
+ 
+        return .init(width: UIScreen.main.bounds.width, height: 290)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
@@ -74,6 +74,12 @@ class DetailCVC: UICollectionViewController, UICollectionViewDelegateFlowLayout 
         let cellWidth: CGFloat = (bounds.width-24) / 2
         let cellHeight: CGFloat = cellWidth
         return .init(width: cellWidth, height: cellHeight)
+    }
+    
+    fileprivate func makeSize(_ width: inout CGFloat, _ height: inout CGFloat, _ indexPath: IndexPath) {
+        width = (self.viewModel.dishesResult?.results.count ?? 0) > 0 ?
+            (self.view.frame.width-24) / 2 : self.view.frame.width
+        height = (self.viewModel.dishesResult?.results.count ?? 0) > 0 ? self.viewModel.type == DishListsType.restaurant ? 299 : 333 : self.view.frame.height
     }
     
 }

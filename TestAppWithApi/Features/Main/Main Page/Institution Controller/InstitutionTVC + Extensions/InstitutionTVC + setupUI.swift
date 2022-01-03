@@ -23,7 +23,8 @@ extension InstitutionTVC {
     
     fileprivate func setupTableView() {
        
-        self.tableView.register(InstitutionTVCell.nib(), forCellReuseIdentifier: InstitutionTVCell.cellID)
+        self.tableView.register(InstitutionTVCell.nib, forCellReuseIdentifier: InstitutionTVCell.cellID)
+        self.tableView.register(InstitutionHeaderTVCell.nib, forCellReuseIdentifier: InstitutionHeaderTVCell.reuseIdentifier)
         
         self.tableView.tableHeaderView = UIView()
         self.tableView.tableFooterView = UIView()

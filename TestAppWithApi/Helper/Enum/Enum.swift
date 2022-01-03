@@ -14,10 +14,15 @@ enum InstitutionsCVShowType {
     case showFiltered
 }
 
-
 enum DishListsType {
     case restaurant
     case category
     case search
     case favorites
+}
+
+
+enum StockType {
+    case empty
+    case full
 }

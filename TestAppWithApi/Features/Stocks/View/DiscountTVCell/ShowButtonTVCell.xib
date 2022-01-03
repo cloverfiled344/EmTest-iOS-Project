@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Bold.ttf">
+            <string>OpenSans-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ShowButtonTVCell" rowHeight="107" id="KGk-i7-Jjw" customClass="ShowButtonTVCell" customModule="TestAppWithApi" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="107"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="107"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fmg-IA-g6R">
+                        <rect key="frame" x="78" y="16" width="219" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="44" id="Q5O-8V-d3q"/>
+                            <constraint firstAttribute="width" constant="219" id="bxG-yo-rhx"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="14"/>
+                        <state key="normal" title="Button"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="fmg-IA-g6R" secondAttribute="bottom" constant="41" id="DZP-OA-z8g"/>
+                    <constraint firstItem="fmg-IA-g6R" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="Flk-oE-Im4"/>
+                    <constraint firstAttribute="trailing" secondItem="fmg-IA-g6R" secondAttribute="trailing" constant="78" id="Jl0-Ka-sbp"/>
+                    <constraint firstItem="fmg-IA-g6R" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="rZh-wj-S2F"/>
+                    <constraint firstItem="fmg-IA-g6R" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="78" id="tVe-X1-VUY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="showButton" destination="fmg-IA-g6R" id="x5L-oL-OPb"/>
+            </connections>
+            <point key="canvasLocation" x="81.884057971014499" y="72.65625"/>
+        </tableViewCell>
+    </objects>
+</document>

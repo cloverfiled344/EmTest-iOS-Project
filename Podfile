@@ -6,11 +6,6 @@ target 'TestAppWithApi' do
   use_frameworks!
 
   # Pods for TestAppWithApi
- 
-  pod 'Firebase/Auth'
-  pod 'Firebase/Core'
-  pod 'Firebase/Database'
-  pod 'Firebase/Firestore'
 
   pod 'Alamofire', '~> 4.9.0'
   pod 'PKHUD'
@@ -23,7 +18,13 @@ target 'TestAppWithApi' do
   pod 'BRYXBanner'
   pod 'XLPagerTabStrip'
   pod 'SnapKit'
+  pod "TTGTagCollectionView"
+  
+  pod 'FloatingPanel'
+  pod 'FittedSheets'
+  pod 'CardSlider'
   
   pod "ImageSlideshow/SDWebImage"
   pod 'SDWebImage'
+  
 end

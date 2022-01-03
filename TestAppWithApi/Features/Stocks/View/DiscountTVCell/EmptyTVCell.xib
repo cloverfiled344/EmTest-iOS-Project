@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Bold.ttf">
+            <string>OpenSans-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="emptyCell" rowHeight="479" id="KGk-i7-Jjw" customClass="EmptyTVCell" customModule="TestAppWithApi" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="410" height="479"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="410" height="479"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Launching-cuate 2 " translatesAutoresizingMaskIntoConstraints="NO" id="WsJ-Ws-3zk">
+                        <rect key="frame" x="55" y="32" width="300" height="300"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="300" id="53f-Qe-Lef"/>
+                            <constraint firstAttribute="height" constant="300" id="IQd-6I-Bsy"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t87-wk-UaG">
+                        <rect key="frame" x="16" y="354" width="343" height="84"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="84" id="1wS-02-X14"/>
+                            <constraint firstAttribute="width" constant="343" id="rLq-My-EKa"/>
+                        </constraints>
+                        <string key="text">Здесь пока пусто, но мы
+в поисках выгодных
+ предложений</string>
+                        <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="WsJ-Ws-3zk" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="35" id="0Ak-24-swH"/>
+                    <constraint firstAttribute="trailing" secondItem="t87-wk-UaG" secondAttribute="trailing" constant="16" id="9So-w0-g3Y"/>
+                    <constraint firstItem="t87-wk-UaG" firstAttribute="top" secondItem="WsJ-Ws-3zk" secondAttribute="bottom" constant="22" id="KMK-FI-qno"/>
+                    <constraint firstAttribute="bottom" secondItem="t87-wk-UaG" secondAttribute="bottom" constant="16" id="Rox-ZD-38a"/>
+                    <constraint firstItem="t87-wk-UaG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="XU8-7f-PBE"/>
+                    <constraint firstItem="WsJ-Ws-3zk" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="32" id="Ynx-Ff-i20"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="descLabel" destination="t87-wk-UaG" id="iKa-5i-JEv"/>
+                <outlet property="iv" destination="WsJ-Ws-3zk" id="lgx-oj-eMK"/>
+            </connections>
+            <point key="canvasLocation" x="-88.405797101449281" y="196.54017857142856"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Launching-cuate 2 " width="300" height="300"/>
+    </resources>
+</document>

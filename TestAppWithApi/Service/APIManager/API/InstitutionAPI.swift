@@ -160,4 +160,15 @@ class InstitutionAPI: NSObject {
         }
     }
     
+    func getDishesCountInCarts(completion: @escaping(Int?, String?) -> Void) {
+        let path = Global.pathFor(key: "dishes_count_in_carts")
+        ApiManager.shared.GET(path: path, parameters: nil) { (json, error) in
+            guard error == nil else {
+                completion(nil, "\(error?.localizedDescription ?? "")")
+                return
+            }
+            completion(json["cart_quantity"].intValue, nil)
+        }
+    }
+    
 }

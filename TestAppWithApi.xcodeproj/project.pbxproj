@@ -26,10 +26,35 @@
 		FA33A7B825F9DBAD00B307D9 /* UIStoryboard + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA33A7B725F9DBAD00B307D9 /* UIStoryboard + Extension.swift */; };
 		FA33A7BB25F9DC7400B307D9 /* NSObject + Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA33A7BA25F9DC7400B307D9 /* NSObject + Helper.swift */; };
 		FA33A7BE25F9DE7500B307D9 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA33A7BD25F9DE7500B307D9 /* WelcomeViewController.swift */; };
+		FA4B82562612F92C0071833F /* MainTabBarControllerExtension + setupUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B82552612F92C0071833F /* MainTabBarControllerExtension + setupUI.swift */; };
+		FA4B8259261325320071833F /* DiscountsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B8258261325320071833F /* DiscountsVM.swift */; };
+		FA4B825F2613368B0071833F /* StockTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B825E2613368B0071833F /* StockTVC.swift */; };
+		FA4B828B261338D00071833F /* DiscountTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B8289261338D00071833F /* DiscountTVCell.swift */; };
+		FA4B828C261338D00071833F /* DiscountTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA4B828A261338D00071833F /* DiscountTVCell.xib */; };
+		FA4B828F261345C20071833F /* StockTVC + tableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B828E261345C20071833F /* StockTVC + tableView.swift */; };
+		FA4B8292261345EC0071833F /* StockTVC + fetchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B8291261345EC0071833F /* StockTVC + fetchData.swift */; };
+		FA4B829A26134A5A0071833F /* StockTVC + functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B829926134A5A0071833F /* StockTVC + functions.swift */; };
+		FA4B829E261357C60071833F /* EmptyTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B829C261357C60071833F /* EmptyTVCell.swift */; };
+		FA4B829F261357C60071833F /* EmptyTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA4B829D261357C60071833F /* EmptyTVCell.xib */; };
 		FA50FC6C25F8D403004BA690 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA50FC6B25F8D403004BA690 /* MainTabBarController.swift */; };
 		FA50FC7325F8DA26004BA690 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA50FC7225F8DA26004BA690 /* Auth.storyboard */; };
 		FA50FC7925F8E373004BA690 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA50FC7825F8E373004BA690 /* API.swift */; };
 		FA50FC7D25F8E3AC004BA690 /* UserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA50FC7C25F8E3AC004BA690 /* UserAPI.swift */; };
+		FA51A00D261B277200E6A96A /* OnBoardingVC + setupUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA51A00C261B277200E6A96A /* OnBoardingVC + setupUI.swift */; };
+		FA51A010261B290200E6A96A /* OnBoardingVC + collectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA51A00F261B290200E6A96A /* OnBoardingVC + collectionView.swift */; };
+		FA51A013261B3B4100E6A96A /* OnBoardingVC + functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA51A012261B3B4100E6A96A /* OnBoardingVC + functions.swift */; };
+		FA5AA0EB2615B7A000A9E8C9 /* DetailDiscountTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5AA0EA2615B7A000A9E8C9 /* DetailDiscountTVC.swift */; };
+		FA5AA0EE2615B7C300A9E8C9 /* DetailDiscountTVC + setupUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5AA0ED2615B7C300A9E8C9 /* DetailDiscountTVC + setupUI.swift */; };
+		FA5AA0F12615B7E500A9E8C9 /* DetailDiscountTVC + actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5AA0F02615B7E500A9E8C9 /* DetailDiscountTVC + actions.swift */; };
+		FA5AA11F26171A6400A9E8C9 /* LauchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5AA11E26171A6400A9E8C9 /* LauchVC.swift */; };
+		FA5AA1262617253400A9E8C9 /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5AA1252617253400A9E8C9 /* OnBoarding.storyboard */; };
+		FA5AA12A26174D2900A9E8C9 /* OnBoardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5AA12926174D2900A9E8C9 /* OnBoardingVC.swift */; };
+		FA5AA12E26174DC000A9E8C9 /* OnboardingCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5AA12C26174DC000A9E8C9 /* OnboardingCVCell.swift */; };
+		FA5AA12F26174DC000A9E8C9 /* OnboardingCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA5AA12D26174DC000A9E8C9 /* OnboardingCVCell.xib */; };
+		FA5AA13226187DBB00A9E8C9 /* OnboardingCVCell + setupUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5AA13126187DBB00A9E8C9 /* OnboardingCVCell + setupUI.swift */; };
+		FA5C6FCE2621C4F900028A97 /* InstitutionHeaderTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5C6FCC2621C4F900028A97 /* InstitutionHeaderTVCell.swift */; };
+		FA5C6FCF2621C4F900028A97 /* InstitutionHeaderTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA5C6FCD2621C4F900028A97 /* InstitutionHeaderTVCell.xib */; };
+		FA5C70052621D82000028A97 /* InstitutionTVC + tableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5C70042621D82000028A97 /* InstitutionTVC + tableView.swift */; };
 		FA5E658725FE2BFC00922A55 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = FA5E658625FE2BFC00922A55 /* swiftgen.yml */; };
 		FA5E65B525FF4D9000922A55 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E65B425FF4D9000922A55 /* KeychainService.swift */; };
 		FA5E65DD25FF532200922A55 /* api.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA5E65DC25FF532200922A55 /* api.plist */; };
@@ -50,6 +75,15 @@
 		FA95C7FD26049A8600DF7B4A /* PersonalDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA95C7FC26049A8600DF7B4A /* PersonalDataViewController.swift */; };
 		FA95C8012604BE2200DF7B4A /* InstitutionAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA95C8002604BE2200DF7B4A /* InstitutionAPI.swift */; };
 		FA95C8042604BEA600DF7B4A /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA95C8032604BEA600DF7B4A /* Restaurant.swift */; };
+		FAAEFB4C26149B57004BCCDC /* DetailDiscountTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAEFB4A26149B57004BCCDC /* DetailDiscountTVCell.swift */; };
+		FAAEFB4D26149B57004BCCDC /* DetailDiscountTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAAEFB4B26149B57004BCCDC /* DetailDiscountTVCell.xib */; };
+		FAAEFB5126149E17004BCCDC /* DetailButtonTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAEFB4F26149E17004BCCDC /* DetailButtonTVCell.swift */; };
+		FAAEFB5226149E17004BCCDC /* DetailButtonTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAAEFB5026149E17004BCCDC /* DetailButtonTVCell.xib */; };
+		FAB702F82614654C00E7E3CD /* ShowButtonTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB702F62614654C00E7E3CD /* ShowButtonTVCell.swift */; };
+		FAB702F92614654C00E7E3CD /* ShowButtonTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB702F72614654C00E7E3CD /* ShowButtonTVCell.xib */; };
+		FAB702FC2614675F00E7E3CD /* Extensions + UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB702FB2614675F00E7E3CD /* Extensions + UIView.swift */; };
+		FAB702FF26146D1D00E7E3CD /* StockTVC + setupUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB702FE26146D1D00E7E3CD /* StockTVC + setupUI.swift */; };
+		FAB70302261471CC00E7E3CD /* StockTVC + actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB70301261471CC00E7E3CD /* StockTVC + actions.swift */; };
 		FADAC0FE25E39F8600508E89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADAC0FD25E39F8600508E89 /* AppDelegate.swift */; };
 		FADAC10025E39F8600508E89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADAC0FF25E39F8600508E89 /* SceneDelegate.swift */; };
 		FADAC10225E39F8600508E89 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADAC10125E39F8600508E89 /* MainViewController.swift */; };
@@ -61,6 +95,9 @@
 		FADAC14225E3E39900508E89 /* HeroTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADAC14025E3E39900508E89 /* HeroTableViewCell.swift */; };
 		FADAC14325E3E39900508E89 /* HeroTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FADAC14125E3E39900508E89 /* HeroTableViewCell.xib */; };
 		FADAC14725E3EC7D00508E89 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADAC14625E3EC7D00508E89 /* Model.swift */; };
+		FAEBDBA826255FE300A45430 /* InstitutionHeaderTVCell + functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEBDBA726255FE300A45430 /* InstitutionHeaderTVCell + functions.swift */; };
+		FAEBDBAF262569CF00A45430 /* EmptyTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEBDBAD262569CF00A45430 /* EmptyTVCell.swift */; };
+		FAEBDBB0262569CF00A45430 /* EmptyTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAEBDBAE262569CF00A45430 /* EmptyTVCell.xib */; };
 		FAF5BB7F2600729100A39B01 /* DesignHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF5BB7E2600729100A39B01 /* DesignHelpers.swift */; };
 		FAF5BBC4260088AF00A39B01 /* Extensions + UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF5BBC3260088AF00A39B01 /* Extensions + UIColor.swift */; };
 		FAF5BBED2600A03A00A39B01 /* CabinetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF5BBEC2600A03A00A39B01 /* CabinetViewController.swift */; };
@@ -102,10 +139,35 @@
 		FA33A7B725F9DBAD00B307D9 /* UIStoryboard + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard + Extension.swift"; sourceTree = "<group>"; };
 		FA33A7BA25F9DC7400B307D9 /* NSObject + Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject + Helper.swift"; sourceTree = "<group>"; };
 		FA33A7BD25F9DE7500B307D9 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		FA4B82552612F92C0071833F /* MainTabBarControllerExtension + setupUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainTabBarControllerExtension + setupUI.swift"; sourceTree = "<group>"; };
+		FA4B8258261325320071833F /* DiscountsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountsVM.swift; sourceTree = "<group>"; };
+		FA4B825E2613368B0071833F /* StockTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockTVC.swift; sourceTree = "<group>"; };
+		FA4B8289261338D00071833F /* DiscountTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountTVCell.swift; sourceTree = "<group>"; };
+		FA4B828A261338D00071833F /* DiscountTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DiscountTVCell.xib; sourceTree = "<group>"; };
+		FA4B828E261345C20071833F /* StockTVC + tableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StockTVC + tableView.swift"; sourceTree = "<group>"; };
+		FA4B8291261345EC0071833F /* StockTVC + fetchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StockTVC + fetchData.swift"; sourceTree = "<group>"; };
+		FA4B829926134A5A0071833F /* StockTVC + functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StockTVC + functions.swift"; sourceTree = "<group>"; };
+		FA4B829C261357C60071833F /* EmptyTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyTVCell.swift; sourceTree = "<group>"; };
+		FA4B829D261357C60071833F /* EmptyTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyTVCell.xib; sourceTree = "<group>"; };
 		FA50FC6B25F8D403004BA690 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		FA50FC7225F8DA26004BA690 /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
 		FA50FC7825F8E373004BA690 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		FA50FC7C25F8E3AC004BA690 /* UserAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPI.swift; sourceTree = "<group>"; };
+		FA51A00C261B277200E6A96A /* OnBoardingVC + setupUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OnBoardingVC + setupUI.swift"; sourceTree = "<group>"; };
+		FA51A00F261B290200E6A96A /* OnBoardingVC + collectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OnBoardingVC + collectionView.swift"; sourceTree = "<group>"; };
+		FA51A012261B3B4100E6A96A /* OnBoardingVC + functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OnBoardingVC + functions.swift"; sourceTree = "<group>"; };
+		FA5AA0EA2615B7A000A9E8C9 /* DetailDiscountTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailDiscountTVC.swift; sourceTree = "<group>"; };
+		FA5AA0ED2615B7C300A9E8C9 /* DetailDiscountTVC + setupUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailDiscountTVC + setupUI.swift"; sourceTree = "<group>"; };
+		FA5AA0F02615B7E500A9E8C9 /* DetailDiscountTVC + actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailDiscountTVC + actions.swift"; sourceTree = "<group>"; };
+		FA5AA11E26171A6400A9E8C9 /* LauchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LauchVC.swift; sourceTree = "<group>"; };
+		FA5AA1252617253400A9E8C9 /* OnBoarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnBoarding.storyboard; sourceTree = "<group>"; };
+		FA5AA12926174D2900A9E8C9 /* OnBoardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingVC.swift; sourceTree = "<group>"; };
+		FA5AA12C26174DC000A9E8C9 /* OnboardingCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCVCell.swift; sourceTree = "<group>"; };
+		FA5AA12D26174DC000A9E8C9 /* OnboardingCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingCVCell.xib; sourceTree = "<group>"; };
+		FA5AA13126187DBB00A9E8C9 /* OnboardingCVCell + setupUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OnboardingCVCell + setupUI.swift"; sourceTree = "<group>"; };
+		FA5C6FCC2621C4F900028A97 /* InstitutionHeaderTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstitutionHeaderTVCell.swift; sourceTree = "<group>"; };
+		FA5C6FCD2621C4F900028A97 /* InstitutionHeaderTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InstitutionHeaderTVCell.xib; sourceTree = "<group>"; };
+		FA5C70042621D82000028A97 /* InstitutionTVC + tableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InstitutionTVC + tableView.swift"; sourceTree = "<group>"; };
 		FA5E658625FE2BFC00922A55 /* swiftgen.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
 		FA5E65B425FF4D9000922A55 /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
 		FA5E65DC25FF532200922A55 /* api.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = api.plist; sourceTree = "<group>"; };
@@ -136,6 +198,15 @@
 		FA95C7FC26049A8600DF7B4A /* PersonalDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDataViewController.swift; sourceTree = "<group>"; };
 		FA95C8002604BE2200DF7B4A /* InstitutionAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstitutionAPI.swift; sourceTree = "<group>"; };
 		FA95C8032604BEA600DF7B4A /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		FAAEFB4A26149B57004BCCDC /* DetailDiscountTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailDiscountTVCell.swift; sourceTree = "<group>"; };
+		FAAEFB4B26149B57004BCCDC /* DetailDiscountTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailDiscountTVCell.xib; sourceTree = "<group>"; };
+		FAAEFB4F26149E17004BCCDC /* DetailButtonTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailButtonTVCell.swift; sourceTree = "<group>"; };
+		FAAEFB5026149E17004BCCDC /* DetailButtonTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailButtonTVCell.xib; sourceTree = "<group>"; };
+		FAB702F62614654C00E7E3CD /* ShowButtonTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowButtonTVCell.swift; sourceTree = "<group>"; };
+		FAB702F72614654C00E7E3CD /* ShowButtonTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowButtonTVCell.xib; sourceTree = "<group>"; };
+		FAB702FB2614675F00E7E3CD /* Extensions + UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions + UIView.swift"; sourceTree = "<group>"; };
+		FAB702FE26146D1D00E7E3CD /* StockTVC + setupUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StockTVC + setupUI.swift"; sourceTree = "<group>"; };
+		FAB70301261471CC00E7E3CD /* StockTVC + actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StockTVC + actions.swift"; sourceTree = "<group>"; };
 		FADAC0FA25E39F8600508E89 /* TestAppWithApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestAppWithApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADAC0FD25E39F8600508E89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FADAC0FF25E39F8600508E89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -149,6 +220,9 @@
 		FADAC14025E3E39900508E89 /* HeroTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroTableViewCell.swift; sourceTree = "<group>"; };
 		FADAC14125E3E39900508E89 /* HeroTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeroTableViewCell.xib; sourceTree = "<group>"; };
 		FADAC14625E3EC7D00508E89 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		FAEBDBA726255FE300A45430 /* InstitutionHeaderTVCell + functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InstitutionHeaderTVCell + functions.swift"; sourceTree = "<group>"; };
+		FAEBDBAD262569CF00A45430 /* EmptyTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyTVCell.swift; sourceTree = "<group>"; };
+		FAEBDBAE262569CF00A45430 /* EmptyTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyTVCell.xib; sourceTree = "<group>"; };
 		FAF5BB7E2600729100A39B01 /* DesignHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignHelpers.swift; sourceTree = "<group>"; };
 		FAF5BBC3260088AF00A39B01 /* Extensions + UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions + UIColor.swift"; sourceTree = "<group>"; };
 		FAF5BBEC2600A03A00A39B01 /* CabinetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CabinetViewController.swift; sourceTree = "<group>"; };
@@ -297,14 +371,55 @@
 				FA6F35C12602256C0036A828 /* Extensions + UITableView.swift */,
 				FA95C7B1260321D200DF7B4A /* Extensions + Bundle.swift */,
 				FAFD95532608999400B255D3 /* Extensions + UIImageView.swift */,
+				FAB702FB2614675F00E7E3CD /* Extensions + UIView.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		FA4B825B261335050071833F /* Stocks */ = {
+			isa = PBXGroup;
+			children = (
+				FA4B8287261338900071833F /* View */,
+				FA4B825C261335370071833F /* StockcTVC */,
+			);
+			path = Stocks;
+			sourceTree = "<group>";
+		};
+		FA4B825C261335370071833F /* StockcTVC */ = {
+			isa = PBXGroup;
+			children = (
+				FAAEFB47261484B9004BCCDC /* Stocks */,
+				FAB70305261483C200E7E3CD /* DetialStocksTVC */,
+			);
+			path = StockcTVC;
+			sourceTree = "<group>";
+		};
+		FA4B8287261338900071833F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA4B8288261338970071833F /* DiscountTVCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA4B8288261338970071833F /* DiscountTVCell */ = {
+			isa = PBXGroup;
+			children = (
+				FA4B8289261338D00071833F /* DiscountTVCell.swift */,
+				FA4B828A261338D00071833F /* DiscountTVCell.xib */,
+				FA4B829C261357C60071833F /* EmptyTVCell.swift */,
+				FA4B829D261357C60071833F /* EmptyTVCell.xib */,
+				FAB702F62614654C00E7E3CD /* ShowButtonTVCell.swift */,
+				FAB702F72614654C00E7E3CD /* ShowButtonTVCell.xib */,
+			);
+			path = DiscountTVCell;
 			sourceTree = "<group>";
 		};
 		FA50FC6A25F8D3EC004BA690 /* Tab Bar */ = {
 			isa = PBXGroup;
 			children = (
 				FA50FC6B25F8D403004BA690 /* MainTabBarController.swift */,
+				FA4B82552612F92C0071833F /* MainTabBarControllerExtension + setupUI.swift */,
 			);
 			path = "Tab Bar";
 			sourceTree = "<group>";
@@ -317,6 +432,63 @@
 				FA5E665025FF7DFD00922A55 /* Network */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		FA5AA11B261719FD00A9E8C9 /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				FA5AA122261724BA00A9E8C9 /* OnBoarding */,
+				FA5AA11D26171A3400A9E8C9 /* Launch */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
+		FA5AA11D26171A3400A9E8C9 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				FA5AA11E26171A6400A9E8C9 /* LauchVC.swift */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		FA5AA122261724BA00A9E8C9 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				FA5AA123261724C400A9E8C9 /* View */,
+				FA5AA124261724C800A9E8C9 /* Controller */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		FA5AA123261724C400A9E8C9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA5AA12C26174DC000A9E8C9 /* OnboardingCVCell.swift */,
+				FA5AA12D26174DC000A9E8C9 /* OnboardingCVCell.xib */,
+				FA5AA13126187DBB00A9E8C9 /* OnboardingCVCell + setupUI.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA5AA124261724C800A9E8C9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FA5AA12926174D2900A9E8C9 /* OnBoardingVC.swift */,
+				FA51A00C261B277200E6A96A /* OnBoardingVC + setupUI.swift */,
+				FA51A00F261B290200E6A96A /* OnBoardingVC + collectionView.swift */,
+				FA51A012261B3B4100E6A96A /* OnBoardingVC + functions.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FA5C6FBB26207ACE00028A97 /* InstitutionHeaderCell */ = {
+			isa = PBXGroup;
+			children = (
+				FA5C6FCC2621C4F900028A97 /* InstitutionHeaderTVCell.swift */,
+				FA5C6FCD2621C4F900028A97 /* InstitutionHeaderTVCell.xib */,
+				FAEBDBA726255FE300A45430 /* InstitutionHeaderTVCell + functions.swift */,
+			);
+			path = InstitutionHeaderCell;
 			sourceTree = "<group>";
 		};
 		FA5E658925FE2C1700922A55 /* Resources */ = {
@@ -400,6 +572,7 @@
 				FAF5BBFC2600A45600A39B01 /* CabinetVM.swift */,
 				FAFD957E2608ACBA00B255D3 /* InstitutionVM.swift */,
 				FA0BC85A260C919400432113 /* DishesVM.swift */,
+				FA4B8258261325320071833F /* DiscountsVM.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -489,6 +662,10 @@
 		FA70D9EB260B74F000A5DAE2 /* Institution View */ = {
 			isa = PBXGroup;
 			children = (
+				FAEBDBAC262569AF00A45430 /* EmptyTVCell */,
+				FAEBDBAB2625699B00A45430 /* ShowTVAllCell */,
+				FAEBDBAA2625698C00A45430 /* CategoriesCell */,
+				FA5C6FBB26207ACE00028A97 /* InstitutionHeaderCell */,
 				FAFD95482608932300B255D3 /* InstitutionTVCell */,
 			);
 			path = "Institution View";
@@ -516,6 +693,41 @@
 				FA95C7FC26049A8600DF7B4A /* PersonalDataViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		FAAEFB47261484B9004BCCDC /* Stocks */ = {
+			isa = PBXGroup;
+			children = (
+				FA4B825E2613368B0071833F /* StockTVC.swift */,
+				FA4B828E261345C20071833F /* StockTVC + tableView.swift */,
+				FA4B8291261345EC0071833F /* StockTVC + fetchData.swift */,
+				FA4B829926134A5A0071833F /* StockTVC + functions.swift */,
+				FAB702FE26146D1D00E7E3CD /* StockTVC + setupUI.swift */,
+				FAB70301261471CC00E7E3CD /* StockTVC + actions.swift */,
+			);
+			path = Stocks;
+			sourceTree = "<group>";
+		};
+		FAAEFB5A2614D3DF004BCCDC /* Detail Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FAAEFB4A26149B57004BCCDC /* DetailDiscountTVCell.swift */,
+				FAAEFB4B26149B57004BCCDC /* DetailDiscountTVCell.xib */,
+				FAAEFB4F26149E17004BCCDC /* DetailButtonTVCell.swift */,
+				FAAEFB5026149E17004BCCDC /* DetailButtonTVCell.xib */,
+			);
+			path = "Detail Cells";
+			sourceTree = "<group>";
+		};
+		FAB70305261483C200E7E3CD /* DetialStocksTVC */ = {
+			isa = PBXGroup;
+			children = (
+				FAAEFB5A2614D3DF004BCCDC /* Detail Cells */,
+				FA5AA0EA2615B7A000A9E8C9 /* DetailDiscountTVC.swift */,
+				FA5AA0ED2615B7C300A9E8C9 /* DetailDiscountTVC + setupUI.swift */,
+				FA5AA0F02615B7E500A9E8C9 /* DetailDiscountTVC + actions.swift */,
+			);
+			path = DetialStocksTVC;
 			sourceTree = "<group>";
 		};
 		FADAC0F125E39F8600508E89 = {
@@ -555,6 +767,7 @@
 			children = (
 				FA50FC7225F8DA26004BA690 /* Auth.storyboard */,
 				FADAC10325E39F8600508E89 /* Main.storyboard */,
+				FA5AA1252617253400A9E8C9 /* OnBoarding.storyboard */,
 				FADAC10825E39F8700508E89 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
@@ -593,12 +806,37 @@
 			path = AppDelegate;
 			sourceTree = "<group>";
 		};
+		FAEBDBAA2625698C00A45430 /* CategoriesCell */ = {
+			isa = PBXGroup;
+			children = (
+				FAEBDBAD262569CF00A45430 /* EmptyTVCell.swift */,
+				FAEBDBAE262569CF00A45430 /* EmptyTVCell.xib */,
+			);
+			path = CategoriesCell;
+			sourceTree = "<group>";
+		};
+		FAEBDBAB2625699B00A45430 /* ShowTVAllCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ShowTVAllCell;
+			sourceTree = "<group>";
+		};
+		FAEBDBAC262569AF00A45430 /* EmptyTVCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EmptyTVCell;
+			sourceTree = "<group>";
+		};
 		FAF5BBE726009C1F00A39B01 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				FA5AA11B261719FD00A9E8C9 /* Start */,
+				FA50FC6A25F8D3EC004BA690 /* Tab Bar */,
 				FA0BC829260C435E00432113 /* Main */,
 				FA0BC82B260C436600432113 /* Detail Page */,
-				FA50FC6A25F8D3EC004BA690 /* Tab Bar */,
+				FA4B825B261335050071833F /* Stocks */,
 				FAF5BBE926009C7000A39B01 /* Cabinet */,
 				FA1449CF25F66D130079627E /* Auth */,
 				FA1449CD25F66D080079627E /* Hero */,
@@ -675,6 +913,7 @@
 			children = (
 				FAFD95852608C0A200B255D3 /* InstitutionTVC + setupUI.swift */,
 				FAFD95882608C83D00B255D3 /* InstitutionTVC + functions.swift */,
+				FA5C70042621D82000028A97 /* InstitutionTVC + tableView.swift */,
 			);
 			path = "InstitutionTVC + Extensions";
 			sourceTree = "<group>";
@@ -740,6 +979,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA50FC7325F8DA26004BA690 /* Auth.storyboard in Resources */,
+				FA5AA12F26174DC000A9E8C9 /* OnboardingCVCell.xib in Resources */,
 				FA5E658725FE2BFC00922A55 /* swiftgen.yml in Resources */,
 				FAF5BBFA2600A07000A39B01 /* CabinetTVC.xib in Resources */,
 				FAFD95512608941200B255D3 /* InstitutionTVCell.xib in Resources */,
@@ -747,11 +987,19 @@
 				FA0BC854260C59A800432113 /* DetailDishCVCell.xib in Resources */,
 				FADAC10A25E39F8700508E89 /* LaunchScreen.storyboard in Resources */,
 				FADAC10725E39F8700508E89 /* Assets.xcassets in Resources */,
+				FA5AA1262617253400A9E8C9 /* OnBoarding.storyboard in Resources */,
+				FA4B828C261338D00071833F /* DiscountTVCell.xib in Resources */,
+				FAAEFB4D26149B57004BCCDC /* DetailDiscountTVCell.xib in Resources */,
+				FAAEFB5226149E17004BCCDC /* DetailButtonTVCell.xib in Resources */,
 				FA1449C925F66AE50079627E /* GoogleService-Info.plist in Resources */,
 				FA5E65DD25FF532200922A55 /* api.plist in Resources */,
 				FADAC10525E39F8600508E89 /* Main.storyboard in Resources */,
+				FAB702F92614654C00E7E3CD /* ShowButtonTVCell.xib in Resources */,
+				FA5C6FCF2621C4F900028A97 /* InstitutionHeaderTVCell.xib in Resources */,
+				FA4B829F261357C60071833F /* EmptyTVCell.xib in Resources */,
 				FA0BC872260DA5BF00432113 /* DetailPageCHRV.xib in Resources */,
 				FADAC14325E3E39900508E89 /* HeroTableViewCell.xib in Resources */,
+				FAEBDBB0262569CF00A45430 /* EmptyTVCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -822,29 +1070,48 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA4B828B261338D00071833F /* DiscountTVCell.swift in Sources */,
 				FA95C7FD26049A8600DF7B4A /* PersonalDataViewController.swift in Sources */,
 				FAF5BBED2600A03A00A39B01 /* CabinetViewController.swift in Sources */,
 				FAF5BC222600CA5400A39B01 /* About.swift in Sources */,
+				FAB702F82614654C00E7E3CD /* ShowButtonTVCell.swift in Sources */,
 				FADAC14725E3EC7D00508E89 /* Model.swift in Sources */,
+				FAB702FF26146D1D00E7E3CD /* StockTVC + setupUI.swift in Sources */,
 				FA0BC85E260CA13100432113 /* DetailCVC + fetchData.swift in Sources */,
 				FAF5BBFD2600A45600A39B01 /* CabinetVM.swift in Sources */,
 				FA5E65E625FF557D00922A55 /* User.swift in Sources */,
+				FA5C70052621D82000028A97 /* InstitutionTVC + tableView.swift in Sources */,
 				FA1449D825F6821D0079627E /* Extensions.swift in Sources */,
+				FA4B82562612F92C0071833F /* MainTabBarControllerExtension + setupUI.swift in Sources */,
+				FAEBDBA826255FE300A45430 /* InstitutionHeaderTVCell + functions.swift in Sources */,
 				FA95C8012604BE2200DF7B4A /* InstitutionAPI.swift in Sources */,
+				FA5AA0EE2615B7C300A9E8C9 /* DetailDiscountTVC + setupUI.swift in Sources */,
+				FA4B829E261357C60071833F /* EmptyTVCell.swift in Sources */,
+				FAB702FC2614675F00E7E3CD /* Extensions + UIView.swift in Sources */,
 				FA0BC866260CA9F800432113 /* DetailCVC + functions.swift in Sources */,
+				FA5AA0EB2615B7A000A9E8C9 /* DetailDiscountTVC.swift in Sources */,
 				FA95C7B2260321D200DF7B4A /* Extensions + Bundle.swift in Sources */,
 				FAFD9540260888C100B255D3 /* Enum.swift in Sources */,
 				FA50FC6C25F8D403004BA690 /* MainTabBarController.swift in Sources */,
 				FAFD958C2608D87000B255D3 /* Category.swift in Sources */,
+				FA5AA13226187DBB00A9E8C9 /* OnboardingCVCell + setupUI.swift in Sources */,
+				FA5C6FCE2621C4F900028A97 /* InstitutionHeaderTVCell.swift in Sources */,
 				FADAC11525E3A0F800508E89 /* HeroViewController.swift in Sources */,
 				FADAC14225E3E39900508E89 /* HeroTableViewCell.swift in Sources */,
 				FA5E65F025FF5BF900922A55 /* ApiManager.swift in Sources */,
+				FA51A013261B3B4100E6A96A /* OnBoardingVC + functions.swift in Sources */,
 				FA5E65B525FF4D9000922A55 /* KeychainService.swift in Sources */,
 				FA6F35C22602256C0036A828 /* Extensions + UITableView.swift in Sources */,
+				FA51A010261B290200E6A96A /* OnBoardingVC + collectionView.swift in Sources */,
 				FA0BC846260C539A00432113 /* DetailCVC + setupUI.swift in Sources */,
+				FA5AA0F12615B7E500A9E8C9 /* DetailDiscountTVC + actions.swift in Sources */,
 				FADAC10225E39F8600508E89 /* MainViewController.swift in Sources */,
+				FA4B825F2613368B0071833F /* StockTVC.swift in Sources */,
 				FA3210D125F77338002135A3 /* Constants.swift in Sources */,
+				FA5AA12E26174DC000A9E8C9 /* OnboardingCVCell.swift in Sources */,
 				FAFD95892608C83D00B255D3 /* InstitutionTVC + functions.swift in Sources */,
+				FA4B828F261345C20071833F /* StockTVC + tableView.swift in Sources */,
+				FAEBDBAF262569CF00A45430 /* EmptyTVCell.swift in Sources */,
 				FAFD95862608C0A200B255D3 /* InstitutionTVC + setupUI.swift in Sources */,
 				FA33A7B825F9DBAD00B307D9 /* UIStoryboard + Extension.swift in Sources */,
 				FA5E65E125FF553100922A55 /* CabinetAPI.swift in Sources */,
@@ -855,16 +1122,23 @@
 				FA0BC871260DA5BF00432113 /* DetailPageCHRV.swift in Sources */,
 				FA33A7BE25F9DE7500B307D9 /* WelcomeViewController.swift in Sources */,
 				FA0BC858260C8F8100432113 /* DishesResult.swift in Sources */,
+				FAAEFB4C26149B57004BCCDC /* DetailDiscountTVCell.swift in Sources */,
 				FA1449D225F66D2F0079627E /* AuthViewController.swift in Sources */,
 				FA95C7B926034BE400DF7B4A /* LogoutFooterView.swift in Sources */,
 				FA6F359C2601D0960036A828 /* Fonts.swift in Sources */,
+				FAB70302261471CC00E7E3CD /* StockTVC + actions.swift in Sources */,
+				FAAEFB5126149E17004BCCDC /* DetailButtonTVCell.swift in Sources */,
 				FA5E665625FF7F8D00922A55 /* Reachability.swift in Sources */,
 				FA95C8042604BEA600DF7B4A /* Restaurant.swift in Sources */,
+				FA4B829A26134A5A0071833F /* StockTVC + functions.swift in Sources */,
 				FAF5BBC4260088AF00A39B01 /* Extensions + UIColor.swift in Sources */,
+				FA51A00D261B277200E6A96A /* OnBoardingVC + setupUI.swift in Sources */,
 				FADAC0FE25E39F8600508E89 /* AppDelegate.swift in Sources */,
 				FA0BC849260C55D900432113 /* StocksResult.swift in Sources */,
 				FAF5BBF92600A07000A39B01 /* CabinetTVC.swift in Sources */,
 				FA50FC7925F8E373004BA690 /* API.swift in Sources */,
+				FA5AA11F26171A6400A9E8C9 /* LauchVC.swift in Sources */,
+				FA4B8259261325320071833F /* DiscountsVM.swift in Sources */,
 				FADAC10025E39F8600508E89 /* SceneDelegate.swift in Sources */,
 				FA5E665925FF893600922A55 /* Extensions + Notification.swift in Sources */,
 				FAFD954C260893AF00B255D3 /* InstitutionTVC.swift in Sources */,
@@ -877,6 +1151,8 @@
 				FA0BC84F260C597B00432113 /* DetailCVC.swift in Sources */,
 				FA33A7BB25F9DC7400B307D9 /* NSObject + Helper.swift in Sources */,
 				FA5E65EB25FF585D00922A55 /* Global.swift in Sources */,
+				FA4B8292261345EC0071833F /* StockTVC + fetchData.swift in Sources */,
+				FA5AA12A26174D2900A9E8C9 /* OnBoardingVC.swift in Sources */,
 				FAFD95502608941200B255D3 /* InstitutionTVCell.swift in Sources */,
 				FA5E665225FF7F7F00922A55 /* Checker.swift in Sources */,
 			);
@@ -1027,6 +1303,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TestAppWithApi/Helper/Plists/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1046,6 +1323,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TestAppWithApi/Helper/Plists/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

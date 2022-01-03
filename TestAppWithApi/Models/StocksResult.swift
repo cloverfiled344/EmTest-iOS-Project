@@ -44,7 +44,7 @@ class Stocks: NSObject, Mappable {
         id <- map["id"]
         title <- map["title"]
         cover <- map["cover"]
-        desc <- map["desc"]
+        desc <- map["description"]
         restaurant <- map["restaurant"]
     }
 }

@@ -39,7 +39,6 @@ extension InstitutionTVC {
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
-    
     func reloadTVData() {
         ProgressHUD.dismiss()
         DispatchQueue.main.async {
@@ -48,8 +47,6 @@ extension InstitutionTVC {
             self.tableView.reloadData()
         }
     }
-    
-    
     
     @objc func refresh(sender: AnyObject) {
         self.viewModel.restaurantResult?.next = nil
